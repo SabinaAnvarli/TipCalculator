@@ -5,7 +5,6 @@ var amountValue=document.querySelector(".amountValue")
 var billValue=document.querySelector(".billValue")
 
 rangeInput.addEventListener("change",()=>{
-    console.log(firstInput)
     rangeValue.innerText=`${rangeInput.value}%`
     amountValue.innerText=`${rangeInput.value},00`
     billValue.innerText=`${+firstInput.value+(+rangeInput.value)},00`
