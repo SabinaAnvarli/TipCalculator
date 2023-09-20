@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(55, 54, 54);
+}
+body .container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+body .container .input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(175, 174, 174);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+body .container .input .dollar {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 211, 211);
+}
+body .container .input input {
+  width: 92%;
+  height: 100%;
+  border: transparent;
+  outline: none;
+  text-indent: 10px;
+}
+body .container .range {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+body .container .range p {
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #eaeaeb;
+}
+body .container .range input[type=range] {
+  height: 25px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+body .container .range input[type=range]:focus {
+  outline: none;
+}
+body .container .range input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #858787;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+body .container .range input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #939495;
+  height: 13px;
+  width: 13px;
+  border-radius: 25px;
+  background: #eaeaeb;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+body .container .range input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #858787;
+}
+body .container .range input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #858787;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+body .container .range input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #939495;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #eaeaeb;
+  cursor: pointer;
+}
+body .container .range input[type=range]::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+body .container .range input[type=range]::-ms-fill-lower {
+  background: #858787;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+body .container .range input[type=range]::-ms-fill-upper {
+  background: #858787;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+body .container .range input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #858787;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #eaeaeb;
+  cursor: pointer;
+}
+body .container .range input[type=range]:focus::-ms-fill-lower {
+  background: #858787;
+}
+body .container .range input[type=range]:focus::-ms-fill-upper {
+  background: #858787;
+}
+body .container hr {
+  width: 100%;
+  margin-bottom: 20px;
+}
+body .container .amount {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(175, 174, 174);
+  background-color: #eaeaeb;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body .container .amount span {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid rgb(175, 174, 174);
+  display: flex;
+  align-items: center;
+}
+body .container .amount p {
+  margin-left: 10px;
+}
+body .container .bill {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(175, 174, 174);
+  background-color: #eaeaeb;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body .container .bill span {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid rgb(175, 174, 174);
+  display: flex;
+  align-items: center;
+}
+body .container .bill p {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */

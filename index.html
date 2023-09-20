@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="input" >
+           <div class="dollar">$</div>
+           <input type="text"class="firstInput">
+        </div>
+      <div class="range">
+        <span>Tip:</span> 
+        <input type="range" class="rangeInput" value="0"  min="0" max="100"> 
+        <p class="rangeValue">0%</p>
+      </div>
+        <hr>
+        <h3>Results</h3>
+        <div class="amount">
+          <span>Tip amount</span>
+          <p class="amountValue">0</p>
+        </div>
+        <div class="bill">
+           <span>Total Bill with Tip</span>
+           <p class="billValue">0</p>
+         </div>
+    </div>
+
+ <script src="./app.js"></script>
+</body>
+</html>
